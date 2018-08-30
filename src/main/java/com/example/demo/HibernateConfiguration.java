@@ -43,7 +43,7 @@ public class HibernateConfiguration {
         dataSource.setDriverClassName(environment.getRequiredProperty("jdbc.driverClassName"));
         dataSource.setUrl(environment.getRequiredProperty("jdbc.url"));
         dataSource.setUsername("root");
-        dataSource.setPassword("password");
+        dataSource.setPassword("");
         return dataSource;
     }
      
